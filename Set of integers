@@ -1,0 +1,17 @@
+def main():
+    # Accept user input to create the first set of integers
+    set1_input = input("Enter integers separated by spaces for the first set: ")
+    set1 = set(map(int, set1_input.split()))
+
+    # Accept user input to create the second set of integers
+    set2_input = input("Enter integers separated by spaces for the second set: ")
+    set2 = set(map(int, set2_input.split()))
+
+    # Create a new set containing only the elements that are common to both sets
+    common_elements = set1.intersection(set2)
+
+    # Print the new set
+    print("Common elements:", common_elements)
+
+if __name__ == "__main__":
+    main()

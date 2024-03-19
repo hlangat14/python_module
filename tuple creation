@@ -1,0 +1,11 @@
+def main():
+    # Creating a tuple containing the names of five favorite books
+    favorite_books = ("To Kill a Mockingbird", "1984", "The Catcher in the Rye", "The Great Gatsby", "Harry Potter and the Sorcerer's Stone")
+
+    # Using a for loop to print each book name on a separate line
+    print("My favorite books:")
+    for book in favorite_books:
+        print(book)
+
+if __name__ == "__main__":
+    main()
